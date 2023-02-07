@@ -1,0 +1,246 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
+body{
+    margin: 0;
+}
+#main{
+    position: fixed;
+    background-image: url(../jason-leung-Xaanw0s0pMk-unsplash.jpg);
+    width: 100%;
+    height: 5em;
+    text-align: center;
+    z-index: 100;
+    top: 0;
+}
+#main ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#main a, #main li{
+    font-family: 'Nabla', cursive;
+    font-size: xx-large;
+    text-decoration: none;
+    list-style: none;
+}
+#main .material-symbols-outlined{
+color:#a8a7a4;
+font-size: 1.3em;
+}
+
+
+
+@media only screen and (min-width:900px){
+    #main .smartphone{
+        display: none;
+}
+}
+
+@media only screen and (max-width:900px){
+    #main .desktop{
+        display: none;
+    }
+}
+
+#history{
+    font-family: 'Short Stack', cursive;
+    background-image: url(../vincent-keiman-ul_m5dHThaM-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    top:3.5em;
+    width: auto;
+    height: 40em;
+}
+#history h1{
+    text-align: center;
+    align-content: center;
+    font-weight: bolder;
+    color: antiquewhite;
+    background-color: black;
+}
+#history p{
+    position: relative;
+    top: 10em;
+    color: antiquewhite;
+    font-size: larger;
+    width: auto;
+    text-align: center;
+    align-content: center;
+    background-color: black;
+    opacity: 0.7;
+    
+
+}
+@media only screen and (min-width:900px){
+    #history p{
+        top: 2em;
+        color: antiquewhite;
+        font-size: larger;
+        width: 30%;
+        border: 5px solid rgb(223, 108, 73);
+        float: right;
+        margin-right: 2em;
+        line-height: 2.3em;
+        padding: 2em 1em;
+    }
+}
+
+#food{
+position: relative;
+width: 100%;
+top: 2em;
+background-color: black;
+left: 0;
+}
+#food h1{
+    position: relative;
+    font-family:'Permanent Marker', cursive;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+    background-color: chocolate;
+}
+#food ul{
+    display:grid;
+    grid-template-columns: repeat(3, 3fr);
+    grid-template-rows: repeat(4, 4fr);
+    height: auto;
+    margin: 0;
+    gap: 1.5em;
+    padding-top: 2em;
+}
+#food a{
+    font-family:'Permanent Marker', cursive;
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(255, 255, 6);
+    text-align: center;
+    width: 90%;
+    height: 15em;
+    text-decoration: none;
+    list-style:none;
+    margin: 0;
+    
+}
+#food .pizza{
+    background-image: url(../pizza.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .burger{
+    background-image: url(../burger.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .cesar{
+    background-image: url(../cesar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .brownie{
+    background-image: url(../brownie.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .spaghetti{
+    background-image: url(../spaghetti.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .burrito{
+    background-image: url(../burrito.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .kebab{
+    background-image: url(../kebab.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .khinkali{
+    background-image: url(../georgian-khinkali-recipe.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .cheesecake{
+    background-image: url(../cheesecake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .khachapuri{
+    background-image: url(../khachapuri.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .sushi{
+    background-image: url(../sushi.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .tomyum{
+    background-image: url(../Tom-Yum-Soup.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .ramen{
+    background-image: url(../ramen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#food .lasagna{
+    background-image: url(../lasagna.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}#food .tacos{
+    background-image: url(../tacos.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+@media only screen and (max-width:900px){
+    #food ul{
+        display: flex;
+        flex-direction: column;
+        width:auto;
+    }
+}
+#contact{
+    position: relative;
+    text-align: center;
+    top: 2em;
+    background-color: #020202;
+    padding-top: 1em;
+    height: 2em;
+}
+.fa {
+    text-decoration: none;
+    font-size: large;
+    padding: 4px 6px;
+    border-radius: 2px solid #3B5998;
+    border-radius: 5px;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa:hover {
+    opacity: 0.7;
+  }
